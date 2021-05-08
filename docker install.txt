@@ -1,4 +1,4 @@
-Always in root to run docker otherwise will get permission denied error
+AAlways in root to run docker otherwise will get permission denied error
 
 sudo -i (Switch to root)
 sudo apt-get install y-ppa-manager
