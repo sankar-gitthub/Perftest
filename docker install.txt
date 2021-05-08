@@ -1,0 +1,23 @@
+Always in root to run docker otherwise will get permission denied error
+
+sudo -i (Switch to root)
+sudo apt-get install y-ppa-manager
+
+https://docs.docker.com/engine/install/ubuntu/
+
+docker --version
+
+docker version
+
+docker image ls - List the avaialbel images
+
+docker pull ubuntu:16.04 
+
+df -TPh (Check the usage)
+
+
+Run the docker the imaage
+docker run -it --name ubuntu ubuntu:16.04 /bin/bash
+
+Check ubutnue version inside containter
+cat /etc/lsb-release
